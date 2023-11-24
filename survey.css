@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+    color:white;
+}
+body {
+    margin: 0;
+    background-image: url(https://penntoday.upenn.edu/sites/default/files/2021-08/computer-science-career.jpg);
+    backdrop-filter: blur(2px);
+  }
+
+.bg {
+    background-color: rgba(54,65,86,0.75);
+    
+}
+
+.division {
+    padding-top: 3vw;
+    float: left;
+    width: 45%;
+}
+
+.header {
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.5vw;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6vw;
+}
+
+.form {
+    width:75%;
+    margin:auto;
+    padding-top: 3.5vw;
+    padding-left: 2.5vw;
+    padding-bottom: 3.5vw;
+    padding-right: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #212D40;
+    border: 7.5px double #D66853;
+}
+
+.answers {
+    font-size: 1.15vw;
+    padding-left: 1vw;
+}
+
+.signup {
+    display:flex;
+    justify-content: center;
+}
+
+table {
+    
+    margin: auto;
+}
+
+legend {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5vw;
+}
+
+.form2 {
+    font-size: 2.5vw;
+}
+
+.submit {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #212540;
+    border-radius:50px;
+    font-size: 3vw;
+    color:white;
+    margin-left: 40%;
+    margin-top: 3vw;
+    padding: 2vw 3vw;
+    animation-timing-function: ease;
+}
+
+.submit:hover {
+    background-color: #1a1e33;
+    transform: translateY(-3px);
+    cursor: pointer;
+}

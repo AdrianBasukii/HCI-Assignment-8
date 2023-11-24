@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="survey.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI ASSIGNMENT-02</title>
+</head>
+<body>
+    <div class="bg">
+    <div class="header">
+    <h1>Computer Science Survey</h1>
+    </div>
+    
+    <div class="form">
+
+    <table>    
+    <form>
+        <tr>
+        <td colspan="2">
+        <fieldset>
+        <legend>Survey</legend>
+        <div class="division">
+        <span>1. What is your year of education?</span><br><br>
+        <section class="answers">
+        <input type="radio" name="radio1" id="1" required>
+        <label for="1" >1st</label><br>
+        <input type="radio" name="radio1" id="2" required>
+        <label for="2" >2nd</label><br>
+        <input type="radio" name="radio1" id="3" required>
+        <label for="3" >3rd</label><br>
+        <input type="radio" name="radio1" id="4" required>
+        <label for="4" >4th</label><br>
+        <input type="radio" name="radio1" id="pg" required>
+        <label for="pg" >Postgraduate</label>
+        <br><br><br>
+        </section>
+
+        <span>2. Are you enjoying CS so far?</span><br><br>
+        <section class="answers">
+        <input type="radio" name="radio1" id="yes" required>
+        <label for="yes" >Yes</label><br>
+        <input type="radio" name="radio1" id="no" required>
+        <label for="no" >No</label><br><br><br>
+        </section>
+
+        <span>3. What are some programming languages you've previously learned?</span><br><br>
+        <section class="answers">
+        <span>Select all that apply; If none, tick others</span><br><br>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="Html">
+        <label for="Html">HTML</label><br>
+        <input type="checkbox" id="Css">
+        <label for="Css">CSS</label><br>
+        <input type="checkbox" id="Others">
+        <label for="Others">Others (Please specify):</label><br><br>
+        <input class="tb" type="text" required placeholder="Eg.: Javascript, Java" size="30" minlength="4"><br><br><br>
+        </section>
+
+        <span>4. How confident are you with the programming languages you've previously learned?</span>
+        <section class="answers">
+            <label>0%</label>
+            <input type="range" min="0" max="100" step="12.5">
+            <label>100%</label><br><br><br>
+        </section>
+        </div>
+        <div class="division">
+        <span>5. What are some programming languages you're interested in learning?</span><br><br>
+        <section class="answers">
+        <span>Select all that apply: </span><br><br>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="Html">
+        <label for="Html">HTML</label><br>
+        <input type="checkbox" id="Css">
+        <label for="Css">CSS</label><br>
+        <input type="checkbox" id="Others">
+        <label for="Others">Others (Please specify):</label><br><br>
+        <input class="tb" type="text" required placeholder="Eg.: Javascript, Java" size="30" minlength="4">
+        </section><br>
+        <span>6. Which of these media do you prefer for learning coding outside of university?</span>
+        <section class="answers"><br>
+            <span>Select all that apply: </span><br><br>
+            <input type="checkbox" id="vid">
+            <label for="vid">Online Videos</label><br>
+            <input type="checkbox" id="web">
+            <label for="web">Online Courses Websites</label><br>
+            <input type="checkbox" id="tb">
+            <label for="tb">Textbooks</label><br>
+            <input type="checkbox" id="Others1">
+            <label for="Others1">Others (Please specify):</label><br><br>
+            <input class="tb" type="text" required placeholder="Eg.: IRL Courses" size="30" minlength="4">
+        </section><br>
+        <span>7. Are the materials from your university lectures sufficient for learning everything, or do you need to learn more materials from other sources?</span>
+
+        <section class="answers">
+            <br>
+            <input type="radio" name="radio1" id="yes1" required>
+            <label for="yes1" >Yes</label><br>
+            <input type="radio" name="radio1" id="no1" required>
+            <label for="no1" >No</label><br>
+        </section>
+        </fieldset>
+        </td>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Complete Details</legend>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Ida Bagus Kerthyayana"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="imanuaba@XYZ.com"><br><br>
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob"><br><br>
+                    <label>Phone Number</label><br>
+                    <input type="number" id="number" placeholder="0816 XXX XXX"><br>
+    
+                </fieldset>
+            </td>
+            <td rowspan="2">
+                <fieldset>
+                    <legend>Extra</legend>
+                    <span>If you have any additional comments, feel free to write them down in the textbox below</span><br><br>
+                    <textarea style="height:13.5vw; width:27vw;">Enter text here...</textarea>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>University Info</legend>
+                    <label for="univ">University Name</label><br>
+                    <input type="text" id="univ" placeholder="Eg.: Binus International"><br><br>
+                    <label for="grad">Graduation Year</label><br>
+                    <input type="number" id="grad" placeholder="Eg.: 2027"><br><br>
+                </fieldset>
+            </td>
+        </tr>
+        </div>
+
+        
+            
+        
+        <tr>
+            <td colspan="2">
+        <input type="submit" class="submit">
+            </td>
+        </tr>
+    </form>
+    </table>
+    </div>
+    <div>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
+

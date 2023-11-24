@@ -1,0 +1,133 @@
+html{
+    font-family: 'montserrat', 'sans-serif';
+    background-color: #282834;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* HEADER */
+.header{
+    box-sizing: border-box;
+    background-color: #111116; 
+    width: 100%;
+    height: 10vw;
+    border: 5px solid #111116;
+    
+}
+
+.header>h1{
+    text-align: center;
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+    
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 5% 0 10% 5%;
+} 
+
+.p1 {
+    width: 40vw;
+    height: 50vw;
+    border: 5px solid #ffb71d;
+    transition: 0.3s;
+    .bg1 {
+        width: 40vw;
+        height: 50vw;
+        background-image: url(https://cdn.discordapp.com/attachments/845525310221189151/1161536787118825523/image.png?ex=6538a86e&is=6526336e&hm=ff83642eb97f32f8d96b94f22aeda5cec49e97e1008c8040db3d4282beb6e9e3&);
+        background-size: 40vw 50vw;
+    }
+    
+}
+
+.p2 {
+    width: 40vw;
+    height: 50vw;
+    border: 5px solid #ffb71d;
+    transition: 0.3s;
+
+    .bg2 {
+        width: 40vw;
+        height: 50vw;
+        background-image: url(https://cdn.discordapp.com/attachments/845525310221189151/1161538235806265354/image.png?ex=6538a9c7&is=652634c7&hm=45c82b11e653933589839cd791a275faf1486c114a05e845ea6402d8b912e721&);
+        background-size: 40vw 50vw;
+    }
+}
+
+.caption {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+
+/* Hover */
+
+.p1:hover{
+    transform: scale(1.1);
+}
+
+.p2:hover{
+    transform: scale(1.1);
+}
+
+/* Media */
+
+@media only screen and (max-width: 600px) {
+
+        /* HEADER */
+    .header{
+        height: 15vw; 
+    }
+
+    .header>h1{
+        font-size: 6vw;
+        letter-spacing: 0.75vw;
+    }
+
+    /* Gallery */
+    .gallery {
+        display: block;
+        box-sizing: border-box;
+        width: 75%;
+        margin: 5% 0 10% 19%;
+    } 
+
+    .p1, .p2{
+        width: 60vw;
+        height: 80vw;
+        margin-bottom: 45%;
+
+        .bg1, .bg2{
+            width: 60vw;
+            height: 80vw;
+            background-size: 60vw 80vw;
+        }
+    
+    }
+
+    .caption{
+        font-size: 3vw;
+    }
+
+
+    /* Hover */
+    .p1:hover{
+        transform: scale(1);
+    }
+    
+    .p2:hover{
+        transform: scale(1);
+    }
+}

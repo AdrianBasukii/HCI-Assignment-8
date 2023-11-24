@@ -1,0 +1,455 @@
+html{
+    font-family: 'montserrat', 'sans-serif';
+    background-color: #282834;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+/* NAVIGATION */
+
+.navi {
+    width: 100%;
+    height: 2vw;
+    background-color: #111116; 
+}
+
+.navgroup {
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+    padding: 0 0 0 1%;
+    text-align:center;
+    
+}
+
+.navclick {
+    font-size: 1.5vw;
+    width: 100%;
+    height: 2vw;
+    transition: 0.3s;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navclick:hover {
+    background-color: white;
+    color:#111116;
+    font-weight: 700;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #363543;
+    width: 100%;
+    height: 25vw;
+    display: flex;
+}
+
+.pfp {
+    width: 10vw;
+    border: 3px solid #292929;
+}
+
+.img {
+    width: 12%;
+    padding-top: 5%;
+    margin: 0 1% 0 29%
+}
+
+.vl {
+    border-left: 7px solid #ffb71d; 
+    margin-right: 2%;
+    margin-top: 5%;
+    height: 40%
+}
+
+.title {
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 5%;
+    #basuki{
+        color:#ffb71d;
+    }
+
+    
+}
+
+.id {
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+
+/* Content */
+
+.content{
+    display:flex;
+    margin: 7.5% 10%;
+    }
+
+.info {
+    font-size: 2vw;
+    #hr{
+        width: 25%;
+        margin: -3% 0 5% 0;
+        border: 0.25vw solid #ffb71d;
+    }
+
+    #para{
+        text-align: justify;
+        padding: 0% 5%;
+        font-size: 1.35vw;
+        word-spacing: 0.2vw;
+    }
+
+    width: 75%;
+    float: left;
+    
+    
+}
+
+.side-info{
+    background-color: rgb(34, 33, 46);
+    border-radius: 10px;
+    font-size: 1vw;
+    width: 25%;
+    float:right;
+    .titles{
+        text-align:center;
+    }
+
+    .hr {
+        width: 50%;
+        border: 0.15vw solid #ffb71d;
+    }
+    .hs{
+        width:7vw;
+        height:7vw;
+        margin: 11% 0 5% 30%;
+        border: 0.75vw solid rgb(126, 35, 35);
+        border-radius: 7vw;
+        background-image: url(https://abtest.schoolofparenting.id/images/mitra-sekolah/logo/binus_school_serpong.png);
+        background-size: 7vw;
+        transition: 0.3s;
+    }
+
+    .uni{
+        width:7vw;
+        height:7vw;
+        margin: 11% 0 5% 30%;
+        border: 0.75vw solid rgb(9, 89, 116);
+        border-radius: 7vw;
+        background-image: url(https://i.pinimg.com/originals/7a/c5/a5/7ac5a5ce53db6e5dab08a84e5bf9d56c.png);
+        background-size: 7vw;
+        transition: 0.3s;
+    }
+
+    .hs:hover{
+        border-color: rgb(156, 44, 44);
+        transform: translateY(-5%)
+    }
+
+    .uni:hover{
+        border-color: rgb(12, 109, 141);
+        transform: translateY(-5%)
+    }
+
+}
+
+#skills{
+    margin-top: 25%;
+}
+
+.side-info>h1{
+    padding-top: 3%;
+    font-size: 2vw;
+}
+
+.side-info>div>p{
+    width: 100%;
+    text-align: center;
+}
+
+.plang {
+    margin: 11% 0 5% 37%;
+    border: 0.25vw solid white;
+    border-radius: 5vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+#plang {
+    margin-bottom: 20%;
+}
+
+#Py {
+    background-image: url(https://www.pngmart.com/files/23/Python-Logo-PNG-Pic.png);
+    background-size: 5vw;
+}
+
+#CSS {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png);
+    background-size: 5vw;
+}
+
+#HTML {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png);
+    background-size: 5vw;
+}
+
+#vedit {
+    background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: 20vw 13vw;
+}
+
+#game {
+    background-image: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=);
+    background-size: 20vw 13vw;
+}
+
+.hobby {
+    border: 0.5vw solid #353247;
+    width: 20vw;
+    height: 13vw;
+    margin-left: 10%;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.hobby>p {
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+
+#hobbies {
+    display: flex;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #191822;
+    width: 100%;
+    height: 10vw;
+    display: flex;
+}
+
+.contact-info {
+    font-size: 1vw;
+    margin-left: 1%;
+}
+
+/* Media */
+
+@media only screen and (max-width: 600px) {
+    /* Content */
+
+    .content{
+        display:block;
+        margin: 0;
+        }
+    .info {
+        font-size: 4vw;
+        text-align: center;
+        display:block;
+        width: 100%;
+        float:none;
+        #hr{
+            width: 25%;
+            margin: -4% 0 5% 37%;
+            border: 0.5vw solid #ffb71d;
+        }
+
+        #para{
+            font-size: 3vw;
+            word-spacing: 0.1vw;
+        }
+
+        #hobbies{
+            margin-left: 5%;
+        }
+        .hobby {
+            border: 0.5vw solid #353247;
+            width: 40vw;
+            height: 25vw;
+            margin-left: 3%;
+            margin-top: 0;
+            margin-bottom: 2.5vw;
+            font-size: 1.5vw;
+            font-weight: 700;
+        }
+    }
+
+    .side-info{
+        display:block;
+        background-color: rgb(34, 33, 46);
+        float:none;
+        width: 100%;
+        border-radius: 0;
+
+        .titles{
+            font-size: 7vw;
+            margin-bottom: 2vw;
+        }
+        .hs{
+            width:20vw;
+            height:20vw;
+            margin: 11% 0 5% 20%;
+            border: 1.5vw solid rgb(126, 35, 35);
+            border-radius: 20vw;
+            background-image: url(https://abtest.schoolofparenting.id/images/mitra-sekolah/logo/binus_school_serpong.png);
+            background-size: 20vw;
+            transition: 0.3s;
+        }
+    
+        .uni{
+            width:20vw;
+            height:20vw;
+            margin: 11% 0 5% 30%;
+            border: 1.5vw solid rgb(9, 89, 116);
+            border-radius: 20vw;
+            background-image: url(https://i.pinimg.com/originals/7a/c5/a5/7ac5a5ce53db6e5dab08a84e5bf9d56c.png);
+            background-size: 20vw;
+            transition: 0.3s;
+        }
+        .hr {
+            width: 25%;
+            border: 0.1vw solid #ffb71d;
+        }
+
+        .Edu {
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+            margin-left: 22%;
+            margin-top: 5%;
+        }
+
+
+        .school {
+            font-size: 0;
+        }
+
+        #skills{
+            margin-top: 5%;
+        }
+
+        #Py {
+            background-size: 15vw;
+        }
+        
+        #CSS {
+            background-size: 15vw;
+        }
+        
+        #HTML {
+            background-size: 15vw;
+        }
+
+        #plang{
+            display:flex;
+            justify-content: space-between;
+            width: 55%;
+            margin-top: 5%;
+            margin-left: 23.5%;
+            padding-bottom: 10%;
+            margin-bottom: 0;
+        }
+
+
+        .plang {
+            margin: 0;
+            border: 0.5vw solid white;
+            border-radius: 15vw;
+            width: 15vw;
+            height: 15vw;
+        }
+
+    }
+
+    #vedit {
+        background-image: url(https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlkZW8lMjBlZGl0aW5nfGVufDB8fDB8fHww&w=1000&q=80);
+        background-size: 40vw 25vw;
+    }
+    
+    #game {
+        background-image: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=);
+        background-size: 40vw 25vw;
+    }
+
+    /* HEADER */
+
+    .header {
+        background-color: #363543;
+        width: 100%;
+        height: 35vw;
+        display: flex;
+    }
+
+    .pfp {
+        width: 15vw;
+    }
+
+    .img {
+        width: 20%;
+        padding-top: 7%;
+        margin: 0 0 0 12%
+    }
+
+    .vl {
+        border-left: 7px solid #ffb71d; 
+        margin-right: 5%;
+        margin-left: 2%;
+        margin-top: 7%;
+        height: 50%
+    }
+
+    .title {
+        font-size: 7vw;
+        font-weight: 700;
+        text-align: left;
+        #basuki{
+            color:#ffb71d;
+        }
+
+        
+    }
+
+    .id {
+        font-size: 3vw;
+        font-weight: 300;
+        text-align: left;
+    }
+
+
+    .navi {
+        width: 100%;
+        height: 5vw;
+        background-color: #111116; 
+    }
+
+    .navgroup {
+        display: flex;
+        justify-content: space-between;
+        width:40%;
+        padding: 0 0 0 28%;
+    }
+
+    .navclick {
+        font-size: 3vw;
+        height: 5vw;
+        transition: 0.3s
+    }
+}
