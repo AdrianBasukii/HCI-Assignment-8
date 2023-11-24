@@ -9,8 +9,46 @@ body{
     margin: 0;
 }
 
+/* NAVIGATION */
+
+.navi {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding: 1%;
+    background-color: #282834; 
+}
+
+.navgroup {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width:20%;
+    height: 100%;   
+}
+
+.navclick {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    color: white;
+    padding: 10%;
+    border-radius: 1.5vw;
+}
+
 a{
     text-decoration: none;
+}
+
+.navclick:hover {
+    background-color: white;
+    color:#111116;
+    font-weight: 700;
 }
 /* HEADER */
 .header{
@@ -85,6 +123,10 @@ a{
 /* Media */
 
 @media only screen and (max-width: 600px) {
+
+    .navi {
+        height: 12vh;
+    }
 
         /* HEADER */
     .header{

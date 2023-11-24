@@ -11,26 +11,33 @@ body{
 /* NAVIGATION */
 
 .navi {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: 2vw;
+    height: 12vh;
+    padding: 1%;
     background-color: #111116; 
 }
 
 .navgroup {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
     width:20%;
-    padding: 0 0 0 1%;
-    text-align:center;
-    
+    height: 100%;   
 }
 
 .navclick {
+    display: flex;
+    align-items: center;
     font-size: 1.5vw;
     width: 100%;
-    height: 2vw;
+    height: 100%;
     transition: 0.3s;
     color: white;
+    padding: 10%;
+    border-radius: 1.5vw;
 }
 
 a{
@@ -436,7 +443,7 @@ a{
 
     .navi {
         width: 100%;
-        height: 5vw;
+        height: 12vw;
         background-color: #111116; 
     }
 
@@ -451,5 +458,16 @@ a{
         font-size: 3vw;
         height: 5vw;
         transition: 0.3s
+    }
+
+    .footer {
+        height: 20vw;
+        justify-content: center;
+    }
+    
+    .contact-info {
+        margin: 0;
+        font-size: 2vw;
+        text-align: center;
     }
 }
